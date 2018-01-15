@@ -1,0 +1,6 @@
+framework module Pods_Senuti {
+  umbrella header "Pods-Senuti-umbrella.h"
+
+  export *
+  module * { export * }
+}

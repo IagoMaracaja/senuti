@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F40D7EAFC19CAC7F3690797 /* Pods_SenutiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBD10E3EB69974B74C3F26 /* Pods_SenutiTests.framework */; };
 		C3227280200A7A6F00E78807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322727F200A7A6F00E78807 /* AppDelegate.swift */; };
-		C3227282200A7A6F00E78807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3227281200A7A6F00E78807 /* ViewController.swift */; };
 		C3227285200A7A6F00E78807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3227283200A7A6F00E78807 /* Main.storyboard */; };
 		C3227288200A7A6F00E78807 /* Senuti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3227286200A7A6F00E78807 /* Senuti.xcdatamodeld */; };
 		C322728A200A7A6F00E78807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3227289200A7A6F00E78807 /* Assets.xcassets */; };
 		C322728D200A7A6F00E78807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C322728B200A7A6F00E78807 /* LaunchScreen.storyboard */; };
 		C3227298200A7A7000E78807 /* SenutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3227297200A7A7000E78807 /* SenutiTests.swift */; };
 		C32272A3200A7A7000E78807 /* SenutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272A2200A7A7000E78807 /* SenutiUITests.swift */; };
+		C32272B1200A8DBC00E78807 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272B0200A8DBC00E78807 /* MainViewController.swift */; };
+		C32272B9200A8EC500E78807 /* RecentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */; };
+		C32272BB200A8F1A00E78807 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */; };
+		C32272BE200A984300E78807 /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272BD200A984300E78807 /* MusicVideo.swift */; };
+		C32272C1200A9C4C00E78807 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272C0200A9C4C00E78807 /* SearchService.swift */; };
+		C32272C4200A9C9500E78807 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272C3200A9C9500E78807 /* Constants.swift */; };
+		C32272C6200BBBF400E78807 /* Alerts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32272C5200BBBF400E78807 /* Alerts.storyboard */; };
+		C32272C8200BBC4400E78807 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272C7200BBC4400E78807 /* AlertViewController.swift */; };
+		C32272CA200BC47100E78807 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272C9200BC47100E78807 /* Utils.swift */; };
+		CF42A50B4F3587644EAC166E /* Pods_Senuti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF704E757686624E2BE2554 /* Pods_Senuti.framework */; };
+		F20BB68935E8E37210E49F18 /* Pods_SenutiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7233D057BCAF6A7BDBB72 /* Pods_SenutiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F7233D057BCAF6A7BDBB72 /* Pods_SenutiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenutiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4C2C70940F0DB652C9623B /* Pods-Senuti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senuti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Senuti/Pods-Senuti.release.xcconfig"; sourceTree = "<group>"; };
+		56BBAB16D974F7D77875E8BF /* Pods-SenutiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenutiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SenutiUITests/Pods-SenutiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7971AAABC686BC8E5AACF928 /* Pods-SenutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenutiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SenutiTests/Pods-SenutiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92191A5D6F265167D47BCC79 /* Pods-SenutiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenutiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SenutiTests/Pods-SenutiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9ACBD10E3EB69974B74C3F26 /* Pods_SenutiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenutiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C322727C200A7A6F00E78807 /* Senuti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Senuti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C322727F200A7A6F00E78807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3227281200A7A6F00E78807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3227284200A7A6F00E78807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3227287200A7A6F00E78807 /* Senuti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Senuti.xcdatamodel; sourceTree = "<group>"; };
 		C3227289200A7A6F00E78807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +65,18 @@
 		C322729E200A7A7000E78807 /* SenutiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenutiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32272A2200A7A7000E78807 /* SenutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenutiUITests.swift; sourceTree = "<group>"; };
 		C32272A4200A7A7000E78807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32272B0200A8DBC00E78807 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
+		C32272BD200A984300E78807 /* MusicVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideo.swift; sourceTree = "<group>"; };
+		C32272C0200A9C4C00E78807 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		C32272C3200A9C9500E78807 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C32272C5200BBBF400E78807 /* Alerts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alerts.storyboard; sourceTree = "<group>"; };
+		C32272C7200BBC4400E78807 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		C32272C9200BC47100E78807 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DE91EC47440CF2B1FBF83E4B /* Pods-Senuti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senuti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Senuti/Pods-Senuti.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4415529ED36DA673F8D4AB /* Pods-SenutiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenutiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SenutiUITests/Pods-SenutiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF704E757686624E2BE2554 /* Pods_Senuti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Senuti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF42A50B4F3587644EAC166E /* Pods_Senuti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F40D7EAFC19CAC7F3690797 /* Pods_SenutiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20BB68935E8E37210E49F18 /* Pods_SenutiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8E1FC4F90F74424FFD15D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF704E757686624E2BE2554 /* Pods_Senuti.framework */,
+				9ACBD10E3EB69974B74C3F26 /* Pods_SenutiTests.framework */,
+				11F7233D057BCAF6A7BDBB72 /* Pods_SenutiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3227273200A7A6F00E78807 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				C3227296200A7A7000E78807 /* SenutiTests */,
 				C32272A1200A7A7000E78807 /* SenutiUITests */,
 				C322727D200A7A6F00E78807 /* Products */,
+				C991B458DF07A7C0F1847517 /* Pods */,
+				A8E1FC4F90F74424FFD15D72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +142,14 @@
 		C322727E200A7A6F00E78807 /* Senuti */ = {
 			isa = PBXGroup;
 			children = (
-				C322727F200A7A6F00E78807 /* AppDelegate.swift */,
-				C3227281200A7A6F00E78807 /* ViewController.swift */,
-				C3227283200A7A6F00E78807 /* Main.storyboard */,
+				C32272C2200A9C8000E78807 /* helper */,
+				C32272BF200A9C3F00E78807 /* services */,
+				C32272BC200A981F00E78807 /* models */,
+				C32272B5200A8E5D00E78807 /* cells */,
+				C32272B4200A8E4100E78807 /* controllers */,
+				C32272B3200A8E2E00E78807 /* application */,
+				C32272B2200A8E1900E78807 /* views */,
 				C3227289200A7A6F00E78807 /* Assets.xcassets */,
-				C322728B200A7A6F00E78807 /* LaunchScreen.storyboard */,
 				C322728E200A7A6F00E78807 /* Info.plist */,
 				C3227286200A7A6F00E78807 /* Senuti.xcdatamodeld */,
 			);
@@ -128,6 +174,80 @@
 			path = SenutiUITests;
 			sourceTree = "<group>";
 		};
+		C32272B2200A8E1900E78807 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C3227283200A7A6F00E78807 /* Main.storyboard */,
+				C322728B200A7A6F00E78807 /* LaunchScreen.storyboard */,
+				C32272C5200BBBF400E78807 /* Alerts.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C32272B3200A8E2E00E78807 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				C322727F200A7A6F00E78807 /* AppDelegate.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		C32272B4200A8E4100E78807 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C32272B0200A8DBC00E78807 /* MainViewController.swift */,
+				C32272C7200BBC4400E78807 /* AlertViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C32272B5200A8E5D00E78807 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */,
+				C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		C32272BC200A981F00E78807 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C32272BD200A984300E78807 /* MusicVideo.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C32272BF200A9C3F00E78807 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				C32272C0200A9C4C00E78807 /* SearchService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		C32272C2200A9C8000E78807 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				C32272C3200A9C9500E78807 /* Constants.swift */,
+				C32272C9200BC47100E78807 /* Utils.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		C991B458DF07A7C0F1847517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE91EC47440CF2B1FBF83E4B /* Pods-Senuti.debug.xcconfig */,
+				3D4C2C70940F0DB652C9623B /* Pods-Senuti.release.xcconfig */,
+				7971AAABC686BC8E5AACF928 /* Pods-SenutiTests.debug.xcconfig */,
+				92191A5D6F265167D47BCC79 /* Pods-SenutiTests.release.xcconfig */,
+				FE4415529ED36DA673F8D4AB /* Pods-SenutiUITests.debug.xcconfig */,
+				56BBAB16D974F7D77875E8BF /* Pods-SenutiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32272A7200A7A7000E78807 /* Build configuration list for PBXNativeTarget "Senuti" */;
 			buildPhases = (
+				E3C9D2A9B19A9EACAD4752E8 /* [CP] Check Pods Manifest.lock */,
 				C3227278200A7A6F00E78807 /* Sources */,
 				C3227279200A7A6F00E78807 /* Frameworks */,
 				C322727A200A7A6F00E78807 /* Resources */,
+				759DD85A210843583AFB2935 /* [CP] Embed Pods Frameworks */,
+				AB0D541E93A9255CF28A0585 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32272AA200A7A7000E78807 /* Build configuration list for PBXNativeTarget "SenutiTests" */;
 			buildPhases = (
+				1F281946D29B8F1E3D2AD2CB /* [CP] Check Pods Manifest.lock */,
 				C322728F200A7A7000E78807 /* Sources */,
 				C3227290200A7A7000E78807 /* Frameworks */,
 				C3227291200A7A7000E78807 /* Resources */,
+				20C1C237923D6916119CA99A /* [CP] Embed Pods Frameworks */,
+				26DB0886F04C384D37AC3D50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32272AD200A7A7000E78807 /* Build configuration list for PBXNativeTarget "SenutiUITests" */;
 			buildPhases = (
+				2D38A59CC172BDC474C65152 /* [CP] Check Pods Manifest.lock */,
 				C322729A200A7A7000E78807 /* Sources */,
 				C322729B200A7A7000E78807 /* Frameworks */,
 				C322729C200A7A7000E78807 /* Resources */,
+				7D71214F1CEA6916887A2A3C /* [CP] Embed Pods Frameworks */,
+				9E7292F15F551A84DDAA93B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +367,7 @@
 				C322728D200A7A6F00E78807 /* LaunchScreen.storyboard in Resources */,
 				C322728A200A7A6F00E78807 /* Assets.xcassets in Resources */,
 				C3227285200A7A6F00E78807 /* Main.storyboard in Resources */,
+				C32272C6200BBBF400E78807 /* Alerts.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +387,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F281946D29B8F1E3D2AD2CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenutiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20C1C237923D6916119CA99A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenutiTests/Pods-SenutiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DB0886F04C384D37AC3D50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenutiTests/Pods-SenutiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D38A59CC172BDC474C65152 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenutiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759DD85A210843583AFB2935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Senuti/Pods-Senuti-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Senuti/Pods-Senuti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D71214F1CEA6916887A2A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenutiUITests/Pods-SenutiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7292F15F551A84DDAA93B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenutiUITests/Pods-SenutiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0D541E93A9255CF28A0585 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Senuti/Pods-Senuti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C9D2A9B19A9EACAD4752E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Senuti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3227278200A7A6F00E78807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3227282200A7A6F00E78807 /* ViewController.swift in Sources */,
+				C32272BB200A8F1A00E78807 /* MusicVideoTableViewCell.swift in Sources */,
+				C32272B1200A8DBC00E78807 /* MainViewController.swift in Sources */,
+				C32272B9200A8EC500E78807 /* RecentsCollectionViewCell.swift in Sources */,
+				C32272BE200A984300E78807 /* MusicVideo.swift in Sources */,
+				C32272C8200BBC4400E78807 /* AlertViewController.swift in Sources */,
+				C32272CA200BC47100E78807 /* Utils.swift in Sources */,
+				C32272C1200A9C4C00E78807 /* SearchService.swift in Sources */,
 				C3227280200A7A6F00E78807 /* AppDelegate.swift in Sources */,
 				C3227288200A7A6F00E78807 /* Senuti.xcdatamodeld in Sources */,
+				C32272C4200A9C9500E78807 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +717,11 @@
 		};
 		C32272A8200A7A7000E78807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91EC47440CF2B1FBF83E4B /* Pods-Senuti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5E9ZMS5K3;
 				INFOPLIST_FILE = Senuti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andre.iago.Senuti;
@@ -442,9 +733,11 @@
 		};
 		C32272A9200A7A7000E78807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C2C70940F0DB652C9623B /* Pods-Senuti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5E9ZMS5K3;
 				INFOPLIST_FILE = Senuti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andre.iago.Senuti;
@@ -456,6 +749,7 @@
 		};
 		C32272AB200A7A7000E78807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7971AAABC686BC8E5AACF928 /* Pods-SenutiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +766,7 @@
 		};
 		C32272AC200A7A7000E78807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92191A5D6F265167D47BCC79 /* Pods-SenutiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +783,7 @@
 		};
 		C32272AE200A7A7000E78807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4415529ED36DA673F8D4AB /* Pods-SenutiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +799,7 @@
 		};
 		C32272AF200A7A7000E78807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BBAB16D974F7D77875E8BF /* Pods-SenutiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

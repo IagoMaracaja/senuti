@@ -1,0 +1,491 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "getTime"
+- "downloadImageFromURL"
+provides-nominal:
+provides-member:
+- ["Sd", ""]
+- ["Si", ""]
+- ["Sd", "minuteSecondMS"]
+- ["Sd", "minute"]
+- ["Sd", "second"]
+- ["Sd", "millisecond"]
+- ["Si", "msToSeconds"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "AssignmentPrecedence"
+- !private "Data"
+- !private "DispatchQueue"
+- "Double"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- !private "UIImage"
+- "UIImageView"
+- !private "URL"
+- "downloadImageFromURL"
+- "getTime"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "Int"]
+- !private ["s19BinaryFloatingPointP", "String"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "millisecond"]
+- !private ["s19BinaryFloatingPointP", "minute"]
+- !private ["s19BinaryFloatingPointP", "minuteSecondMS"]
+- !private ["s19BinaryFloatingPointP", "second"]
+- !private ["s19BinaryFloatingPointP", "truncatingRemainder"]
+- !private ["s13BinaryIntegerP", "Double"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "millisecond"]
+- !private ["s7CVarArgP", "minute"]
+- !private ["s7CVarArgP", "minuteSecondMS"]
+- !private ["s7CVarArgP", "second"]
+- !private ["s7CVarArgP", "truncatingRemainder"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "Double"]
+- !private ["s10ComparableP", "Int"]
+- !private ["s10ComparableP", "String"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "millisecond"]
+- !private ["s10ComparableP", "minute"]
+- !private ["s10ComparableP", "minuteSecondMS"]
+- !private ["s10ComparableP", "second"]
+- !private ["s10ComparableP", "truncatingRemainder"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "millisecond"]
+- !private ["s28CustomDebugStringConvertibleP", "minute"]
+- !private ["s28CustomDebugStringConvertibleP", "minuteSecondMS"]
+- !private ["s28CustomDebugStringConvertibleP", "second"]
+- !private ["s28CustomDebugStringConvertibleP", "truncatingRemainder"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "millisecond"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minute"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minuteSecondMS"]
+- !private ["s29CustomPlaygroundQuickLookableP", "second"]
+- !private ["s29CustomPlaygroundQuickLookableP", "truncatingRemainder"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "millisecond"]
+- !private ["s17CustomReflectableP", "minute"]
+- !private ["s17CustomReflectableP", "minuteSecondMS"]
+- !private ["s17CustomReflectableP", "second"]
+- !private ["s17CustomReflectableP", "truncatingRemainder"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "millisecond"]
+- !private ["s23CustomStringConvertibleP", "minute"]
+- !private ["s23CustomStringConvertibleP", "minuteSecondMS"]
+- !private ["s23CustomStringConvertibleP", "second"]
+- !private ["s23CustomStringConvertibleP", "truncatingRemainder"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "Double"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "millisecond"]
+- !private ["s9DecodableP", "minute"]
+- !private ["s9DecodableP", "minuteSecondMS"]
+- !private ["s9DecodableP", "second"]
+- !private ["s9DecodableP", "truncatingRemainder"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "global"]
+- !private ["So13DispatchQueueC", "main"]
+- ["Sd", "Int"]
+- ["Sd", "String"]
+- !private ["Sd", "init"]
+- ["Sd", "millisecond"]
+- ["Sd", "minute"]
+- ["Sd", "minuteSecondMS"]
+- ["Sd", "second"]
+- !private ["Sd", "truncatingRemainder"]
+- !private ["s9EncodableP", "Double"]
+- !private ["s9EncodableP", "Int"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "millisecond"]
+- !private ["s9EncodableP", "minute"]
+- !private ["s9EncodableP", "minuteSecondMS"]
+- !private ["s9EncodableP", "second"]
+- !private ["s9EncodableP", "truncatingRemainder"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "global"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "millisecond"]
+- !private ["s9EquatableP", "minute"]
+- !private ["s9EquatableP", "minuteSecondMS"]
+- !private ["s9EquatableP", "second"]
+- !private ["s9EquatableP", "truncatingRemainder"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Int"]
+- !private ["s25ExpressibleByFloatLiteralP", "String"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "millisecond"]
+- !private ["s25ExpressibleByFloatLiteralP", "minute"]
+- !private ["s25ExpressibleByFloatLiteralP", "minuteSecondMS"]
+- !private ["s25ExpressibleByFloatLiteralP", "second"]
+- !private ["s25ExpressibleByFloatLiteralP", "truncatingRemainder"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "millisecond"]
+- !private ["s27ExpressibleByIntegerLiteralP", "minute"]
+- !private ["s27ExpressibleByIntegerLiteralP", "minuteSecondMS"]
+- !private ["s27ExpressibleByIntegerLiteralP", "second"]
+- !private ["s27ExpressibleByIntegerLiteralP", "truncatingRemainder"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "Double"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "Int"]
+- !private ["s13FloatingPointP", "String"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "millisecond"]
+- !private ["s13FloatingPointP", "minute"]
+- !private ["s13FloatingPointP", "minuteSecondMS"]
+- !private ["s13FloatingPointP", "second"]
+- !private ["s13FloatingPointP", "truncatingRemainder"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "global"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "millisecond"]
+- !private ["s8HashableP", "minute"]
+- !private ["s8HashableP", "minuteSecondMS"]
+- !private ["s8HashableP", "second"]
+- !private ["s8HashableP", "truncatingRemainder"]
+- ["Si", "Double"]
+- !private ["Si", "init"]
+- ["Si", "msToSeconds"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "Double"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "Int"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "millisecond"]
+- !private ["s25LosslessStringConvertibleP", "minute"]
+- !private ["s25LosslessStringConvertibleP", "minuteSecondMS"]
+- !private ["s25LosslessStringConvertibleP", "second"]
+- !private ["s25LosslessStringConvertibleP", "truncatingRemainder"]
+- !private ["10Foundation11MeasurementV", "truncatingRemainder"]
+- !private ["s10MirrorPathP", "Double"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "global"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "Double"]
+- !private ["s7NumericP", "Int"]
+- !private ["s7NumericP", "String"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "millisecond"]
+- !private ["s7NumericP", "minute"]
+- !private ["s7NumericP", "minuteSecondMS"]
+- !private ["s7NumericP", "second"]
+- !private ["s7NumericP", "truncatingRemainder"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "truncatingRemainder"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "Double"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Int"]
+- !private ["s13SignedNumericP", "String"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "millisecond"]
+- !private ["s13SignedNumericP", "minute"]
+- !private ["s13SignedNumericP", "minuteSecondMS"]
+- !private ["s13SignedNumericP", "second"]
+- !private ["s13SignedNumericP", "truncatingRemainder"]
+- !private ["s10StrideableP", "Double"]
+- !private ["s10StrideableP", "Int"]
+- !private ["s10StrideableP", "String"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "millisecond"]
+- !private ["s10StrideableP", "minute"]
+- !private ["s10StrideableP", "minuteSecondMS"]
+- !private ["s10StrideableP", "second"]
+- !private ["s10StrideableP", "truncatingRemainder"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So6UIViewC", "image"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "Double"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "Int"]
+- !private ["s15_CVarArgAlignedP", "String"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "millisecond"]
+- !private ["s15_CVarArgAlignedP", "minute"]
+- !private ["s15_CVarArgAlignedP", "minuteSecondMS"]
+- !private ["s15_CVarArgAlignedP", "second"]
+- !private ["s15_CVarArgAlignedP", "truncatingRemainder"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Int"]
+- !private ["s22_CVarArgPassedAsDoubleP", "String"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "millisecond"]
+- !private ["s22_CVarArgPassedAsDoubleP", "minute"]
+- !private ["s22_CVarArgPassedAsDoubleP", "minuteSecondMS"]
+- !private ["s22_CVarArgPassedAsDoubleP", "second"]
+- !private ["s22_CVarArgPassedAsDoubleP", "truncatingRemainder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Int"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "String"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "millisecond"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "minute"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "minuteSecondMS"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "second"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "truncatingRemainder"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Int"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "String"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "millisecond"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "minute"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "minuteSecondMS"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "second"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "truncatingRemainder"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "millisecond"]
+- !private ["s21_ObjectiveCBridgeableP", "minute"]
+- !private ["s21_ObjectiveCBridgeableP", "minuteSecondMS"]
+- !private ["s21_ObjectiveCBridgeableP", "second"]
+- !private ["s21_ObjectiveCBridgeableP", "truncatingRemainder"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "Double"]
+- !private ["s11_StrideableP", "Int"]
+- !private ["s11_StrideableP", "String"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "millisecond"]
+- !private ["s11_StrideableP", "minute"]
+- !private ["s11_StrideableP", "minuteSecondMS"]
+- !private ["s11_StrideableP", "second"]
+- !private ["s11_StrideableP", "truncatingRemainder"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "10Foundation11MeasurementV"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/iagoalbuquerque/Desktop/development/Senuti/DerivedData/Senuti/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "3fbf93e603b2b29c956f9ec0a20e1639"

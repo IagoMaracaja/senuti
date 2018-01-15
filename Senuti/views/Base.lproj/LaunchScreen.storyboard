@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kefa.ttf">
+            <string>Kefa-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyI-Km-EvR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZY2-M6-GbD">
+                                        <rect key="frame" x="8" y="626" width="359" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Z74-c3-Stj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                        <color key="textColor" red="0.97638529539999996" green="0.97652524709999999" blue="0.97635465860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headphone_red" translatesAutoresizingMaskIntoConstraints="NO" id="tgC-DY-Ynw">
+                                        <rect key="frame" x="127" y="273" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="9xM-06-aAQ"/>
+                                            <constraint firstAttribute="width" constant="120" id="l6a-Ap-BcJ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.64386031660518139" green="0.141354740294032" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tgC-DY-Ynw" firstAttribute="centerY" secondItem="QyI-Km-EvR" secondAttribute="centerY" id="T2M-YB-weE"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZY2-M6-GbD" secondAttribute="trailing" constant="8" id="Xgx-vw-bc0"/>
+                                    <constraint firstItem="ZY2-M6-GbD" firstAttribute="leading" secondItem="QyI-Km-EvR" secondAttribute="leading" constant="8" id="aao-6L-3Zb"/>
+                                    <constraint firstItem="tgC-DY-Ynw" firstAttribute="centerX" secondItem="QyI-Km-EvR" secondAttribute="centerX" id="axP-lF-Gwq"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZY2-M6-GbD" secondAttribute="bottom" constant="20" id="ftP-U4-toT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QyI-Km-EvR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="97u-qU-KTz"/>
+                            <constraint firstItem="QyI-Km-EvR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="H4b-T5-eMR"/>
+                            <constraint firstItem="QyI-Km-EvR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wNY-8o-nzB"/>
+                            <constraint firstItem="QyI-Km-EvR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ygg-HJ-Vx3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="headphone_red" width="512" height="512"/>
+    </resources>
+</document>
