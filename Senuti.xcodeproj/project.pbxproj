@@ -16,7 +16,6 @@
 		C3227298200A7A7000E78807 /* SenutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3227297200A7A7000E78807 /* SenutiTests.swift */; };
 		C32272A3200A7A7000E78807 /* SenutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272A2200A7A7000E78807 /* SenutiUITests.swift */; };
 		C32272B1200A8DBC00E78807 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272B0200A8DBC00E78807 /* MainViewController.swift */; };
-		C32272B9200A8EC500E78807 /* RecentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */; };
 		C32272BB200A8F1A00E78807 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */; };
 		C32272BE200A984300E78807 /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272BD200A984300E78807 /* MusicVideo.swift */; };
 		C32272C1200A9C4C00E78807 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32272C0200A9C4C00E78807 /* SearchService.swift */; };
@@ -66,7 +65,6 @@
 		C32272A2200A7A7000E78807 /* SenutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenutiUITests.swift; sourceTree = "<group>"; };
 		C32272A4200A7A7000E78807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32272B0200A8DBC00E78807 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsCollectionViewCell.swift; sourceTree = "<group>"; };
 		C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
 		C32272BD200A984300E78807 /* MusicVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideo.swift; sourceTree = "<group>"; };
 		C32272C0200A9C4C00E78807 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 		C32272B5200A8E5D00E78807 /* cells */ = {
 			isa = PBXGroup;
 			children = (
-				C32272B8200A8EC500E78807 /* RecentsCollectionViewCell.swift */,
 				C32272BA200A8F1A00E78807 /* MusicVideoTableViewCell.swift */,
 			);
 			path = cells;
@@ -546,7 +543,6 @@
 			files = (
 				C32272BB200A8F1A00E78807 /* MusicVideoTableViewCell.swift in Sources */,
 				C32272B1200A8DBC00E78807 /* MainViewController.swift in Sources */,
-				C32272B9200A8EC500E78807 /* RecentsCollectionViewCell.swift in Sources */,
 				C32272BE200A984300E78807 /* MusicVideo.swift in Sources */,
 				C32272C8200BBC4400E78807 /* AlertViewController.swift in Sources */,
 				C32272CA200BC47100E78807 /* Utils.swift in Sources */,
