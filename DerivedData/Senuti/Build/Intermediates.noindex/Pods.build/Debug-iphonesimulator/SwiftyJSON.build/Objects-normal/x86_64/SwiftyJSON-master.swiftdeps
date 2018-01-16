@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "3e2851ce21bd143e9eef27d4cef328ea"
-build_time: [1515873869, 453505000]
-inputs:
-  "/Users/iagoalbuquerque/Desktop/development/Senuti/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1515872635, 0]

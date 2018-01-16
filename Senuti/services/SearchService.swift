@@ -12,7 +12,7 @@ import SwiftyJSON
 var taskCreator : URLSessionDataTask!
 
 /**
- Do a asynchronous task to get restaurants
+ Do a asynchronous task to search music 
  */
 func searchMusic(viewController vc : MainViewController, artist : String){
     var request = URLRequest(url: URL(string: Constants.ItunesUrl + Constants.term + artist + Constants.entity)! )
